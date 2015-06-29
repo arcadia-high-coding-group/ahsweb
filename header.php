@@ -10,8 +10,8 @@
 	<link rel="shortcut icon" href="images/logo-tiny.ico" />
 	
 	<!-- CSS Link -->
-	<link rel="stylesheet" type="text/css" media="all" href="main.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="form_elements.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/form_elements.css" />
 	
 	<!-- Description -->
 	<meta name="description" content="Find volunteer opertunities easily." />
@@ -35,6 +35,13 @@
 
 <body>
 
-<div id="header">
-	<h1 id="logo">Volunteer Finder</h1>
+<div id="header_bar">
+	<div class="wrapper">
+		<h1 id="logo">Volunteer Finder</h1>
+		<input id="big-search-top" type='text' placeholder='Search For Volunteer Opertunity' />
+		<button class="big-search-btn" title="Search">&nbsp;</button>
+		<button class="plus-btn" title="Create New Job">&nbsp;</button>
+	</div>
 </div>
+
+<div style='margin-bottom: 52px;'></div>
