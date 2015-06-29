@@ -11,6 +11,7 @@
 	
 	<!-- CSS Link -->
 	<link rel="stylesheet" type="text/css" media="all" href="main.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="form_elements.css" />
 	
 	<!-- Description -->
 	<meta name="description" content="Find volunteer opertunities easily." />
@@ -32,6 +33,8 @@
 	
 </head>
 
-
-
 <body>
+
+<div id="header">
+	<h1 id="logo">Volunteer Finder</h1>
+</div>
