@@ -34,8 +34,62 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 
 .job-div
 {
+	position: relative;
+	margin-top: 10px;
 	padding: 10px;
 	display: inline-block;
+	border: 1px solid #000000;
+	color: #222222;
+	background-color: #fff;
+	border-bottom: 1px solid #c4c4c4;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+	color: #444;
+	float: float;
+}
+
+.job-text-div, .job-title-div, .job-buttons-div
+{
+	display: inline-block;
+	vertical-align: top;
+	line-height: 28px;
+	font-size: 18px;
+	float: float;
+}
+
+.job-title-div
+{
+	width: 100%;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.job-buttons-div
+{
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.job-image-thumbnail
+{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	border-bottom: 1px solid #c4c4c4;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-top: 1px solid #d3d3d3;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+	padding: 5px;
+	/*CaminoGroveElementary.jpg*/
 }
 
 .center
