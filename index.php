@@ -1,28 +1,17 @@
-<?php 
-require("config.php"); 
+<?php include('header.php');?>
 
-$sql = "SELECT * FROM users";
 
-$result = mysql_query($sql);
+<div id="header">
+	<h1 id="logo">Trader</h1>
+</div>
 
-if($result)
-while($info = mysql_fetch_array($result))
-{
-	echo "{$info['username']}<br />";
-}
-else
-	echo "query failed: ".$sql;
+<div id="wrapper">
 
-?>
-
-<html>
-
-<body>
-	<h1>Header</h1>
-	
 	<p>New sdfsdf paragraph</p>
-	
-	<p>New paragraph 2</p>
-</body>
 
-</html>
+	<p>New paragraph 2</p>
+
+</div>
+
+
+<?php include('footer.php');?>

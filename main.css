@@ -1,0 +1,28 @@
+/* elements */
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup,tt,b,u,i,ol,ul,li,form,table,tbody,tfoot,thead,tr,th,td,p,h1,h2,h3,h4{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:baseline;
+	font-family: Roboto-Regular, arial, sans-serif;
+}
+
+#wrapper
+{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header
+{
+	text-align: center;
+	width: 100%;
+}
+
+#logo
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
