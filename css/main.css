@@ -11,26 +11,49 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 
 /* IDS */
 
-#wrapper
-{
-	width: 960px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
 #header
 {
 	text-align: center;
 	width: 100%;
 }
 
+#header_bar
+{
+	position:fixed;
+	width: 100%;
+	top:0px;
+	background-color: #FFF;
+	z-index: 2;
+	border-bottom: 1px solid #c4c4c4;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+	color: #444;
+	height: 42px;
+	text-align:center;
+}
+
 #logo
 {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	line-height: 42px;
+	font-size: 20px;
+	display: inline-block;
+	width: 220px;
+}
+
+#filters
+{
+	
 }
 
 /* CLASSES */
+
+.wrapper
+{
+	padding-left: 10px;
+	width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+}
 
 .job-div
 {
@@ -50,20 +73,30 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	float: float;
 }
 
-.job-text-div, .job-title-div, .job-buttons-div
+.job-text-div, .job-title-div, .job-buttons-div, .job-inner-text-div
 {
 	display: inline-block;
 	vertical-align: top;
-	line-height: 28px;
-	font-size: 18px;
+	line-height: 24px;
+	font-size: 14px;
 	float: float;
+}
+
+.job-text-div
+{
+	padding-left: 10px;
+}
+
+.job-inner-text-div
+{
+	width: 720px;
 }
 
 .job-title-div
 {
-	width: 100%;
 	font-weight: bold;
 	font-size: 20px;
+	display: block;
 }
 
 .job-buttons-div
@@ -72,6 +105,8 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
+	opacity: 0;
+	transition: 0.25s;
 }
 
 .job-image-thumbnail
@@ -88,8 +123,19 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	border-right: 1px solid #d3d3d3;
 	border-top: 1px solid #d3d3d3;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
-	padding: 5px;
-	/*CaminoGroveElementary.jpg*/
+}
+
+.job-div:hover .job-buttons-div
+{
+	opacity: 1;
+	transition: 0.25s;
+}
+
+.elipsis
+{
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .center
