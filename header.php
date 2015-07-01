@@ -1,4 +1,8 @@
-<?php require('config.php');  ?>
+<?php 
+// CONNECT TO MYSQL DATABASE
+require(__DIR__.'/config.php');
+ ?>
+ 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
 
@@ -7,11 +11,11 @@
 	<title>Carden Trader</title>
 	
 	<!-- Website Icon -->
-	<link rel="shortcut icon" href="images/logo-tiny.ico" />
+	<link rel="shortcut icon" href="<?php echo IMAGES_DIR; ?>/logo-tiny.ico" />
 	
 	<!-- CSS Link -->
-	<link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="css/form_elements.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo CSS_DIR; ?>/main.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo CSS_DIR; ?>/form_elements.css" />
 	
 	<!-- Description -->
 	<meta name="description" content="Find volunteer opertunities easily." />
@@ -26,10 +30,10 @@
 	<meta charset="UTF-8" />
 	
 	<!-- JQuery Reference (Don't worry about this) -->
-	<script src="libs/jquery.min.js" ></script>
-	<script src="libs/jquery.form.js"></script>
-	<script src="libs/jquery.filedrop.js"></script>
-	<script src="libs/unslider2.min.js"></script>
+	<script src="<?php echo LIB_DIR; ?>/jquery.min.js" ></script>
+	<script src="<?php echo LIB_DIR; ?>/jquery.form.js"></script>
+	<script src="<?php echo LIB_DIR; ?>/jquery.filedrop.js"></script>
+	<script src="<?php echo LIB_DIR; ?>/unslider2.min.js"></script>
 	
 </head>
 

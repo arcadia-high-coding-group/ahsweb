@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php include('../header.php');?>
 
 <div class="wrapper">
 
@@ -13,7 +13,7 @@
 	<div class="job-div col6">
 		
 		<div class='clear'></div>
-		<div class="job-image-thumbnail" style='background-image: url("0resources/uploads/CaminoGroveElementary.jpg")'></div>
+		<div class="job-image-thumbnail" style='background-image: url("<?php echo UPLOADS_DIR; ?>/CaminoGroveElementary.jpg")'></div>
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
@@ -36,7 +36,7 @@
 	<div class="job-div col6">
 		
 		<div class='clear'></div>
-		<div class="job-image-thumbnail" style='background-image: url("0resources/uploads/CaminoGroveElementary.jpg")'></div>
+		<div class="job-image-thumbnail" style='background-image: url("<?php echo UPLOADS_DIR; ?>/CaminoGroveElementary.jpg")'></div>
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
@@ -59,7 +59,7 @@
 	<div class="job-div col6">
 		
 		<div class='clear'></div>
-		<div class="job-image-thumbnail" style='background-image: url("0resources/uploads/CaminoGroveElementary.jpg")'></div>
+		<div class="job-image-thumbnail" style='background-image: url("<?php echo UPLOADS_DIR; ?>/CaminoGroveElementary.jpg")'></div>
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
@@ -82,7 +82,7 @@
 	<div class="job-div col6">
 		
 		<div class='clear'></div>
-		<div class="job-image-thumbnail" style='background-image: url("0resources/uploads/CaminoGroveElementary.jpg")'></div>
+		<div class="job-image-thumbnail" style='background-image: url("<?php echo UPLOADS_DIR; ?>/CaminoGroveElementary.jpg")'></div>
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
@@ -106,6 +106,6 @@
 	
 </div>
 
-<script src="scripts/index.js" ></script>
+<script src="<?php echo JS_SCRIPTS_DIR; ?>/index.js" ></script>
 
 <?php include('../footer.php');?>
