@@ -1,4 +1,6 @@
 <?php 
+require(__DIR__."/constants.php");
+
 //echo "Trying to connect to server...<br />";
 session_start();
 $dbc = mysql_connect('216.172.184.74:3306',"ab8072_ahs",'ahs@2015');
@@ -8,7 +10,7 @@ if (!$dbc)
 }
 else
 {
-	//print "Connected to server!";
+	print "Connected to server!";
 }
 //select database
 //echo "Trying to connect to database...<br />";
@@ -21,5 +23,4 @@ else
 {
 	//print "Connected to database!";
 }
-
 ?>
