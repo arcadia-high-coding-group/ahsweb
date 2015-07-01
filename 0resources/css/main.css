@@ -1,4 +1,4 @@
-/* elements */
+/* ELEMENTS */
 html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup,tt,b,u,i,ol,ul,li,form,table,tbody,tfoot,thead,tr,th,td,p,h1,h2,h3,h4{
 	margin:0;
 	padding:0;
@@ -8,6 +8,17 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	font-family: Roboto-Regular, arial, sans-serif;
 }
 
+hr
+{
+	border: 0;
+	border-top: 1px solid #d3d3d3;
+}
+
+a
+{
+	cursor: pointer;
+	color: #000;
+}
 
 /* IDS */
 
@@ -45,7 +56,6 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 }
 
 /* CLASSES */
-
 .wrapper
 {
 	padding-left: 10px;
@@ -55,6 +65,14 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	text-align: left;
 }
 
+.wrapper_tight
+{
+	padding-left: 0px;
+	width: 960px;
+	margin: 0px;
+}
+
+/* JOB DIV STYLE ON HOME PAGE */
 .job-div
 {
 	position: relative;
@@ -70,7 +88,7 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	border-top: 1px solid #d3d3d3;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
 	color: #444;
-	float: float;
+	float: left;
 }
 
 .job-text-div, .job-title-div, .job-buttons-div, .job-inner-text-div
@@ -79,7 +97,7 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	vertical-align: top;
 	line-height: 24px;
 	font-size: 14px;
-	float: float;
+	float: left;
 }
 
 .job-text-div
@@ -109,7 +127,7 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	transition: 0.25s;
 }
 
-.job-image-thumbnail
+.job-image-thumbnail, .job-big-image-thumbnail
 {
 	display: inline-block;
 	width: 200px;
@@ -131,6 +149,23 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 	transition: 0.25s;
 }
 
+/* JOB DIV STYLE ON JOB PAGE */
+.job-big-image-thumbnail
+{
+	width: 455px;
+	height: 455px;
+	
+	float: left;
+}
+
+/* STANDARD CLASSES */
+.inline_link
+{
+	color: #2f96ff;
+	display: inline_block;
+	float:right;
+}
+
 .elipsis
 {
 	white-space: nowrap; 
@@ -142,6 +177,14 @@ html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,em,img,strike,strong,sub,sup
 {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* COLLOMN SET UP */
+.col1, .col2, .col3, .col4, .col5, .col6
+{
+	display: inline-block;
+	float: left;
+	vertical-align: top;
 }
 
 .col1 {width: 140px; padding-left: 10px; padding-right: 10px;}

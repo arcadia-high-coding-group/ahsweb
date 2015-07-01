@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php include(__DIR__.'/0template/header.php');?>
 
 <div class="wrapper">
 
@@ -26,7 +26,7 @@
 			<div class="elipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis velit porta urna vulputate, at fringilla elit tristique.</div>
 			</div>
 			<div class="job-buttons-div">
-				<button class="btn">View</button><button class="btn">Dismiss</button><button class="btn">Accept Request</button>
+				<a class="btn" href="job/">View</a><button class="btn">Dismiss</button><button class="btn">Accept Request</button>
 			</div>
 		</div>
 		
@@ -106,6 +106,6 @@
 	
 </div>
 
-<script src="scripts/index.js" ></script>
+<script src="<?php echo JS_SCRIPTS_DIR; ?>/home.js" ></script>
 
-<?php include('../footer.php');?>
+<?php include(__DIR__.'/0template/footer.php');?>
