@@ -41,7 +41,7 @@ require(__DIR__.'/config.php');
 
 <div id="header_bar">
 	<div class="wrapper">
-		<h1 id="logo">Volunteer Finder</h1>
+		<a href="<?php echo HOME_DIR; ?>"><h1 id="logo">Volunteer Finder</h1></a>
 		<input id="big-search-top" type='text' placeholder='Search For Volunteer Opertunity' />
 		<button class="big-search-btn" title="Search">&nbsp;</button>
 		<button class="plus-btn" title="Create New Job">&nbsp;</button>
