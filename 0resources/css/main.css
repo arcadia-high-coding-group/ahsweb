@@ -89,6 +89,7 @@ a
 	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
 	color: #444;
 	float: left;
+	z-index: -200;
 }
 
 .job-text-div, .job-title-div, .job-buttons-div, .job-inner-text-div
@@ -143,6 +144,55 @@ a
 	box-shadow: 0 1px 0 rgba(0,0,0,0.07);
 }
 
+.job-date-start, .job-date-end, .job-date-dash
+{
+	display: inline-block;
+	float: left;
+}
+
+.job-date-dash
+{
+	width: 160px;
+	text-align: center;
+	float: center;
+}
+
+.job-date-start
+{
+	width: 290px;
+}
+
+.job-date-end
+{
+	width: 290px;
+	float: right;
+	text-align: right;
+}
+
+.job-date-box
+{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	padding: 10px;
+	background-color: #eee;
+	z-index: -101;
+}
+
+.job-date-bar
+{
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	top: 0px;
+	background-color: #2f96ff;
+	height: 100%;
+	width: 75%;
+	z-index: -100;
+}
+
 .job-div:hover .job-buttons-div
 {
 	opacity: 1;
@@ -158,7 +208,68 @@ a
 	float: left;
 }
 
+.job-big-date-start, .job-big-date-end, .job-big-date-dash
+{
+	display: inline-block;
+	float: left;
+}
+
+.job-big-date-dash
+{
+	width: 160px;
+	text-align: center;
+	float: center;
+}
+
+.job-big-date-start
+{
+	width: 390px;
+}
+
+.job-big-date-end
+{
+	width: 390px;
+	float: right;
+	text-align: right;
+}
+
+.job-big-date-box
+{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	padding: 10px;
+	background-color: #eee;
+	z-index: -101;
+}
+
+.job-big-date-bar
+{
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	top: 0px;
+	background-color: #2f96ff;
+	height: 100%;
+	width: 75%;
+	z-index: -100;
+}
+
 /* STANDARD CLASSES */
+.no-bottom-padding
+{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.no-top-padding
+{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
 .inline_link
 {
 	color: #2f96ff;
