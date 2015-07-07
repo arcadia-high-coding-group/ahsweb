@@ -5,9 +5,13 @@
 	<div class="wrapper_tight">
 	<h2>Volunteer at Camino Grove</h2>
 	
-	<hr />
-	<div class="job-big-date-start">START: July 4th 2015</div> <div class="job-big-date-dash">-<div> <div class="job-big-date-end">END: July 6th 2015</div>
-	<hr />
+	<div class="job-big-date-box">
+	<div class="job-big-date-bar"></div>
+	<div class="job-big-date-start">START: July 4th 2015</div>
+	<div class="job-big-date-dash">2 days left</div> 
+	<div class="job-big-date-end">END: July 6th 2015</div>
+	</div>
+	<div class='clear'></div>
 	</div>
 	
 	<div class="job-big-image-thumbnail" style='background-image: url("<?php echo UPLOADS_DIR; ?>/CaminoGroveElementary.jpg")'>

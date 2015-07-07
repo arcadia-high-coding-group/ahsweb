@@ -17,14 +17,21 @@
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
-			<div class="job-title-div elipsis">Volunteer at Camino Grove</div>
+			<div class="job-title-div elipsis">Volunteer at Camino Grove</div><br />
 			Reward: 4 volunteer hours<br />
 			Location: 1234 Main St., Arcadia, CA<br />
 			Benefactor: Camino Grove<br />
 			Confirmation Deadline: 7/4/2015<br />
 			Summary:<br />
 			<div class="elipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis velit porta urna vulputate, at fringilla elit tristique.</div>
+			<div class="job-date-box">
+				<div class="job-date-bar"></div>
+				<div class="job-date-start">START: July 4th 2015</div>
+				<div class="job-date-dash">2 days left</div> 
+				<div class="job-date-end">END: July 6th 2015</div>
 			</div>
+			</div>
+			
 			<div class="job-buttons-div">
 				<a class="btn" href="job/">View</a><button class="btn">Dismiss</button><button class="btn">Accept Request</button>
 			</div>
@@ -40,7 +47,7 @@
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
-			<div class="job-title-div elipsis">Volunteer at Camino Grove</div>
+			<div class="job-title-div elipsis">Volunteer at Camino Grove</div><br />
 			Reward: 4 volunteer hours<br />
 			Location: 1234 Main St., Arcadia, CA<br />
 			Benefactor: Camino Grove<br />
@@ -63,7 +70,7 @@
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
-			<div class="job-title-div elipsis">Volunteer at Camino Grove</div>
+			<div class="job-title-div elipsis">Volunteer at Camino Grove</div><br />
 			Reward: 4 volunteer hours<br />
 			Location: 1234 Main St., Arcadia, CA<br />
 			Benefactor: Camino Grove<br />
@@ -86,13 +93,14 @@
 		<div class="job-text-div">
 			
 			<div class="job-inner-text-div">
-			<div class="job-title-div elipsis">Volunteer at Camino Grove</div>
+			<div class="job-title-div elipsis">Volunteer at Camino Grove</div><br />
 			Reward: 4 volunteer hours<br />
 			Location: 1234 Main St., Arcadia, CA<br />
 			Benefactor: Camino Grove<br />
 			Confirmation Deadline: 7/4/2015<br />
 			Summary:<br />
-			<div class="elipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis velit porta urna vulputate, at fringilla elit tristique.</div>
+			<div class="elipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis velit porta urna vulputate, at fringilla elit tristique.</div><br />
+			
 			</div>
 			<div class="job-buttons-div">
 				<button class="btn">View</button><button class="btn">Dismiss</button><button class="btn">Accept Request</button>
